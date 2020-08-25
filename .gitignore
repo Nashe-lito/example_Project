@@ -1,13 +1,14 @@
-.idea/*
-/target/
+.allure
+.idea
+target
 /src/test/java/screenshots/
-.
 
 *.class
 *.war
 *.jar
 *.ear
 *.iml
+*.ipr
 
 pom.xml.tag
 pom.xml.releaseBackup
