@@ -1,10 +1,11 @@
-About:
+### About:
 - Java 11
 - Selenium
 - TestNG
 - Maven
 
-How to run
+
+### How to run
 - Open command line
 - Go to the project directory
 - Run command 
@@ -12,11 +13,13 @@ How to run
 $ ./mvnw clean test site
 ```
 OR
-
 - Open IDE
 - Run testng.xml file
 
-How to open the allure report
+
+### How to generate the allure report
+- Run commands 
 ```bash
+$ ./mvnw clean test site
 $ ./mvnw io.qameta.allure:allure-maven:serve
 ```
